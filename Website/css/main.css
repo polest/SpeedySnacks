@@ -1,0 +1,192 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 1280px;
+    min-height: 800px;    
+}
+
+div {
+    border: 1px solid black;
+    //padding: 5px;
+}
+
+/* all */
+
+#all {
+    width: 970px;
+    float: left;
+}
+
+/* #header */
+
+#header {
+    width: 100%;
+    float: left;
+    height: 200px;
+}
+
+#header_logo {
+    height: 100%;
+    width: 320px;
+    float: left;
+    margin-right: 6px;
+}
+
+#header_pic {
+    height: 100%;
+    width: 640px;
+    float: left;
+}
+
+
+/* main */
+
+#main {
+    width: 100%;
+    float: left;
+    min-height: 600px;
+}
+
+#menu {
+   width: 320px;
+   min-height: 600px;
+   float: left;
+}
+
+.menu_item {
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+#content {
+    width: 640px;
+    float: left;
+    min-height: 600px;
+}
+
+#content_header {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+#content_selection {
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.selection_point {
+    height: 100%;
+    width: 318px;
+    float: left;
+}
+
+#components {
+    width: 100%;
+    float: left;
+    min-height: 150px;
+}
+
+#making {
+    width: 100%;
+    float: left;
+    min-height: 200px;
+}
+
+
+/* hint_content */
+
+#hint_content {
+    height: 800px;
+    width: 65px;
+    float: left;
+}
+
+.site {
+    height: 100%;
+    width: 3px;
+    float: left;
+}
+
+.hint {
+    height: 50px;
+    width: 75px;
+    background-color: white;
+    //overflow: hidden;
+}
+
+.site1 {
+    position: absolute;
+    top: 10px;
+}
+
+.site2 {
+    position: absolute;
+    top: 70px;
+}
+
+.site3 {
+    position: absolute;
+    top: 130px;
+}
+
+.site4 {
+    position: absolute;
+    top: 190px;
+}
+
+.site5 {
+    position: absolute;
+    top: 250px;
+}
+
+.site6 {
+    position: absolute;
+    top: 310px;
+}
+
+.site7 {
+    position: absolute;
+    top: 370px;
+}
+
+.site8 {
+    position: absolute;
+    top: 430px;
+}
+
+.site9 {
+    position: absolute;
+    top: 490px;
+}
+
+.site10 {
+    position: absolute;
+    top: 550px;
+}
+
+.site11 {
+    position: absolute;
+    top: 610px;
+}
+
+.site12 {
+    position: absolute;
+    top: 670px;
+}
+
+.site13 {
+    position: absolute;
+    top: 730px;
+}
+
+/* footer */
+
+#footer {
+    width: 970px;
+}
