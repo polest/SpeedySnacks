@@ -4,7 +4,7 @@
 }
 
 body {
-    width: 1280px;
+    //width: 1280px;
     min-height: 800px;    
 }
 
@@ -23,7 +23,7 @@ div {
 /* #header */
 
 #header {
-    width: 100%;
+    width: 970px;
     float: left;
     height: 200px;
 }
@@ -45,7 +45,7 @@ div {
 /* main */
 
 #main {
-    width: 100%;
+    width: 970px;
     float: left;
     min-height: 600px;
 }
@@ -54,6 +54,7 @@ div {
    width: 320px;
    min-height: 600px;
    float: left;
+   margin-right: 6px;
 }
 
 .menu_item {
@@ -117,76 +118,117 @@ div {
     height: 50px;
     width: 75px;
     background-color: white;
+    position: absolute;
+    float: left;
     //overflow: hidden;
 }
 
 .site1 {
-    position: absolute;
     top: 10px;
 }
 
 .site2 {
-    position: absolute;
     top: 70px;
 }
 
 .site3 {
-    position: absolute;
     top: 130px;
 }
 
 .site4 {
-    position: absolute;
     top: 190px;
 }
 
 .site5 {
-    position: absolute;
     top: 250px;
 }
 
 .site6 {
-    position: absolute;
     top: 310px;
 }
 
 .site7 {
-    position: absolute;
     top: 370px;
 }
 
 .site8 {
-    position: absolute;
     top: 430px;
 }
 
 .site9 {
-    position: absolute;
     top: 490px;
 }
 
 .site10 {
-    position: absolute;
     top: 550px;
 }
 
 .site11 {
-    position: absolute;
     top: 610px;
 }
 
 .site12 {
-    position: absolute;
     top: 670px;
 }
 
 .site13 {
-    position: absolute;
     top: 730px;
 }
 
-/* footer */
+
+/* spirale */
+
+#all_spirale {
+    position: absolute;
+    width: 50px;
+    float: left;
+    left: 300px;
+    border: none;
+}
+
+.spirale {
+    margin-top: 10px;
+    width: 50px;
+    height: 12px;
+    float: left;
+    position: relative;
+    border: none;
+}
+
+.point {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.line {
+    float: left;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    
+}
+
+.float_right {
+    float: right;
+}
+
+.float_left {
+    float: left;
+}
+
+
+
+
+/* footer 
 
 #footer {
     width: 970px;
 }
+
+*/
